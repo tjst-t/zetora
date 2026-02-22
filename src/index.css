@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface-0: #1e1e2e;
+  --surface-1: #282839;
+  --surface-2: #313244;
+  --accent: #89b4fa;
+  --accent-hover: #74c7ec;
+  --text: #cdd6f4;
+  --text-muted: #6c7086;
+}
+
+body {
+  margin: 0;
+  background-color: var(--surface-0);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
